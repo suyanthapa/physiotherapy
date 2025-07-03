@@ -16,10 +16,10 @@ const Hero: React.FC = () => {
           {/* Content */}
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Expert
+              Narayni
               <span className="text-teal-600 dark:text-teal-400"> Physiotherapy</span>
               <br />
-              Care
+              Clinic
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
               Restore your mobility and live pain-free with our comprehensive physiotherapy treatments. 

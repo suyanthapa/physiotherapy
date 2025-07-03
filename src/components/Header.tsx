@@ -48,17 +48,21 @@ const Header: React.FC = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-teal-600 dark:bg-teal-500 p-2 rounded-lg">
-              <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                <span className="text-teal-600 dark:text-teal-500 font-bold text-sm">P</span>
-              </div>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white">PhysioClinic</h1>
-              <p className="text-xs text-gray-600 dark:text-gray-400">Excellence in Care</p>
-            </div>
-          </Link>
+              <Link to="/" className="flex items-center space-x-3">
+        <img
+          src="/images/logo.jpg" // or use {logo} if imported
+          alt="Narayani Physio  Logo"
+          className="w-16 h-16 object-contain"
+        />
+        <div>
+          <h1 className="text-lg font-semibold text-gray-900 dark:text-white">
+            Narayani Physio Therapy
+          </h1>
+          <p className="text-xs text-gray-600 dark:text-gray-400">
+            Excellence in Care
+          </p>
+        </div>
+      </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

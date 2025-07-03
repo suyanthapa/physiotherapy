@@ -6,11 +6,11 @@ const About: React.FC = () => {
 
   const doctors = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Nishan Rana",
       title: "DPT, SCS, CSCS",
       specialty: "Sports Physiotherapy",
       experience: "12 Years",
-      image: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/images/nishan.jpg",
       description: "A dedicated physiotherapist committed to helping individuals restore, maintain, and improve their mobility, strength, and overall physical function.",
       qualifications: ["Doctor of Physical Therapy", "Sports Clinical Specialist", "Certified Strength & Conditioning Specialist"]
     },
