@@ -154,15 +154,18 @@ const Gallery: React.FC = () => {
                   className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
                 />
               ) : (
-                <div className="w-full aspect-video">
-              <video
-                src={selectedMedia.src}
-                title={selectedMedia.title}
-                className="w-full h-full rounded-lg"
-                controls
-                autoPlay
-              />
-            </div>
+              <div className="w-full max-w-5xl mx-auto">
+  <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
+    <video
+      src={selectedMedia.src}
+      title={selectedMedia.title}
+      className="absolute top-0 left-0 w-full h-full rounded-lg"
+      controls
+      autoPlay
+    />
+  </div>
+</div>
+
 
               )}
               
