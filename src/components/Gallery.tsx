@@ -47,6 +47,11 @@ const Gallery: React.FC = () => {
       src: "/videos/v2.mp4",
       title: "Physiotherapy Techniques",
       thumbnail: "/images/v2.png" 
+    },
+     {
+      src: "/videos/v3.mp4",
+      title: "Physiotherapy Techniques",
+      thumbnail: "/images/v3.png" 
     }
   ];
 
@@ -144,16 +149,16 @@ const Gallery: React.FC = () => {
                   className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
                 />
               ) : (
-                <div className="relative w-full h-0 pb-[56.25%]">
-                  <iframe
-                    src={selectedMedia.src}
-                    title={selectedMedia.title}
-                    className="absolute top-0 left-0 w-full h-full rounded-lg"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
+                <div className="w-full aspect-video">
+  <video
+    src={selectedMedia.src}
+    title={selectedMedia.title}
+    className="w-full h-full rounded-lg"
+    controls
+    autoPlay
+  />
+</div>
+
               )}
               
               <div className="text-center mt-4">
