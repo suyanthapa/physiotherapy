@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="bg-teal-600 dark:bg-teal-500 rounded-2xl p-8 transform rotate-3">
               <img
-                src="https://images.pexels.com/photos/7659567/pexels-photo-7659567.jpeg?auto=compress&cs=tinysrgb&w=800"
+                 src="/images/clinic.jpg"
                 alt="Physiotherapist working with patient"
                 className="w-full h-96 object-cover rounded-lg transform -rotate-3"
               />

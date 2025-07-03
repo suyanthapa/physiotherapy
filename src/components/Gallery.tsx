@@ -38,15 +38,15 @@ const Gallery: React.FC = () => {
   ];
 
   const videos = [
-    {
-      src: "https://player.vimeo.com/video/76979871",
+     {
+      src: "/videos/v1.mp4",
       title: "Physiotherapy Techniques",
-      thumbnail: "https://images.pexels.com/photos/7659567/pexels-photo-7659567.jpeg?auto=compress&cs=tinysrgb&w=600"
+      thumbnail: "/images/v1.png" 
     },
-    {
-      src: "https://player.vimeo.com/video/76979871",
-      title: "Patient Success Stories",
-      thumbnail: "https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=600"
+   {
+      src: "/videos/v2.mp4",
+      title: "Physiotherapy Techniques",
+      thumbnail: "/images/v2.png" 
     }
   ];
 
