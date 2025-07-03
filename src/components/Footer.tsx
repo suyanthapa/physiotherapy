@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-bold">PhysioClinic</h3>
+                <h3 className="text-xl font-bold">Narayani Physio Therapy</h3>
                 <p className="text-sm text-gray-400">Excellence in Care</p>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 PhysioClinic. All rights reserved. | Privacy Policy | Terms of Service
+            © 2025 NarayaniPhysioTherapy. All rights reserved. | Privacy Policy | Terms of Service
           </p>
         </div>
       </div>

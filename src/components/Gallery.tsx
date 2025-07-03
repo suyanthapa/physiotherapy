@@ -52,7 +52,12 @@ const Gallery: React.FC = () => {
       src: "/videos/v3.mp4",
       title: "Physiotherapy Techniques",
       thumbnail: "/images/v3.png" 
-    }
+    },
+     {
+      src: "/videos/v4.mp4",
+      title: "Physiotherapy Techniques",
+      thumbnail: "/images/v4.png" 
+    },
   ];
 
   const openMedia = (type: 'image' | 'video', src: string, title: string) => {
@@ -150,14 +155,14 @@ const Gallery: React.FC = () => {
                 />
               ) : (
                 <div className="w-full aspect-video">
-  <video
-    src={selectedMedia.src}
-    title={selectedMedia.title}
-    className="w-full h-full rounded-lg"
-    controls
-    autoPlay
-  />
-</div>
+              <video
+                src={selectedMedia.src}
+                title={selectedMedia.title}
+                className="w-full h-full rounded-lg"
+                controls
+                autoPlay
+              />
+            </div>
 
               )}
               

@@ -68,13 +68,14 @@ const Hero: React.FC = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="bg-teal-600 dark:bg-teal-500 rounded-2xl p-8 transform rotate-3">
-              <img
-                 src="/images/clinic.jpg"
-                alt="Physiotherapist working with patient"
-                className="w-full h-96 object-cover rounded-lg transform -rotate-3"
-              />
-            </div>
+        <div className="bg-teal-600 dark:bg-teal-500 rounded-2xl p-4 sm:p-6 transform rotate-3 inline-block">
+  <img
+    src="/images/clinic.jpg"
+    alt="Physiotherapist working with patient"
+    className="w-full h-[28rem] sm:h-[32rem] object-cover rounded-lg transform -rotate-3 scale-105"
+  />
+</div>
+
             <div className="absolute -bottom-4 -left-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
               <div className="flex items-center space-x-3">
                 <div className="bg-green-100 dark:bg-green-900/30 p-2 rounded-full">
